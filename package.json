@@ -7,18 +7,42 @@
     "storybook": "start-storybook -p 6006 -c .storybook",
     "test": "jest"
   },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./test-setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/lib/",
+      "/esm/",
+      "/examples/simple/"
+    ],
+    "testEnvironment": "node",
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|ts|tsx)$"
+    ],
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": true
+      }
+    }
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-info": "^5.1.11",
     "@storybook/addon-knobs": "^5.1.11",
+    "@storybook/addon-storyshots": "^5.1.11",
     "@storybook/addons": "^5.1.11",
     "@storybook/react": "^5.1.11",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "babel-plugin-macros": "^2.6.1",
     "jest": "^24.9.0",
+    "jest-transform-css": "^2.0.0",
     "react-test-renderer": "^16.9.0",
+    "require-context.macro": "^1.1.1",
     "storybook-addon-jsx": "^7.1.5",
     "storybook-addon-material-ui": "^0.9.0-alpha.20"
   },

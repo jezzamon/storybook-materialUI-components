@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Avatar anonymous 1`] = `<div />`;
+
+exports[`Storyshots Avatar basic 1`] = `<div />`;
+
+exports[`Storyshots Avatar using fallback 1`] = `<div />`;
+
+exports[`Storyshots Button another background 1`] = `<div />`;
+
+exports[`Storyshots Button with background 1`] = `<div />`;
+
+exports[`Storyshots EventItem anonymous 1`] = `<div />`;
+
+exports[`Storyshots EventItem basic 1`] = `<div />`;
+
+exports[`Storyshots EventItem long event name 1`] = `<div />`;
+
+exports[`Storyshots EventList basic 1`] = `<div />`;
+
+exports[`Storyshots EventList empty 1`] = `<div />`;
+
+exports[`Storyshots Main Contained Buttons 1`] = `<div />`;
+
+exports[`Storyshots Main Outlined Buttons 1`] = `<div />`;
+
+exports[`Storyshots Main Text Buttons 1`] = `<div />`;
+
+exports[`Storyshots TimelineLoaded basic 1`] = `<div />`;
+
+exports[`Storyshots TimelineLoaded empty 1`] = `<div />`;
+
+exports[`Storyshots TimelineLoaded fully loaded 1`] = `<div />`;
+
+exports[`Storyshots Welcome To your new storbook : tada emoji 1`] = `<div />`;
