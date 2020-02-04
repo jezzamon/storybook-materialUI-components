@@ -1,4 +1,9 @@
-import { configure, setAddon, addDecorator, addParameters } from '@storybook/react';
+import {
+  configure,
+  setAddon,
+  addDecorator,
+  addParameters,
+} from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 import { withInfo } from '@storybook/addon-info';
 import { withKnobs } from '@storybook/addon-knobs/react';
@@ -8,7 +13,7 @@ import { themes } from '@storybook/theming';
 
 addParameters({
   options: {
-    theme: themes.dark,
+    theme: themes.light,
   },
 });
 

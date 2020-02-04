@@ -1,0 +1,10 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0024ee",
+    "titleBar.inactiveBackground": "#001691",
+    "titleBar.activeForeground": "#ECEFF4"
+  }
+}
