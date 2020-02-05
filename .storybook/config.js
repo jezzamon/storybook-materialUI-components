@@ -4,8 +4,8 @@ import {
   addDecorator,
   addParameters,
 } from '@storybook/react';
-import JSXAddon from 'storybook-addon-jsx';
 import { withInfo } from '@storybook/addon-info';
+import JSXAddon from 'storybook-addon-jsx';
 import { withKnobs } from '@storybook/addon-knobs/react';
 import { muiTheme } from 'storybook-addon-material-ui';
 import darkTheme from '../src/darkTheme';
